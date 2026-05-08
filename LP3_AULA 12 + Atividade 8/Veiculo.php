@@ -4,7 +4,7 @@ class Veiculo {
 
 public string $marca;
 public string $modelo;
-public float $ano;
+public int $ano;
 public float $quantidadeCombustivel;
 public float $consumoMedio;
 
