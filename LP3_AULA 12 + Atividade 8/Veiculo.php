@@ -8,7 +8,7 @@ public int $ano;
 public float $quantidadeCombustivel;
 public float $consumoMedio;
 
-public function abastecer($litros) {
+public function abastecer(float $litros) {
     $this->quantidadeCombustivel = $this->quantidadeCombustivel + $litros;
 }
 
