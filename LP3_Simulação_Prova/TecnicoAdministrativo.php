@@ -101,6 +101,5 @@ class TecnicoAdministrativo extends Funcionario
         $this->getMatricula() . $this->getNome() . $this->setor
         );
     }
-    ?>
 }
 ?>
