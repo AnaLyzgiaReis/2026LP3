@@ -102,3 +102,4 @@ class TecnicoAdministrativo extends Funcionario
         );
     }
 }
+?>
