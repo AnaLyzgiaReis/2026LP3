@@ -103,7 +103,7 @@ class Professor extends Funcionario
 
     public function gerarRelatorio(): string
     {
-        return "Matricula: " . $this->getMatricula() . "Nome: " . $this->getNome() . "Titulacao: " . $this->titulacao . "Salario: R$ " . number_format($this->calcularSalario(), 2, ",", ".");
+        return "Matricula: " . $this->getMatricula() . "<br>Nome: " . $this->getNome() . "<br>Titulacao: " . $this->titulacao . "<br>Salario: R$ " . number_format($this->calcularSalario(), 2, ",", ".");
     }
 }
 ?>
